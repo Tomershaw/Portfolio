@@ -80,11 +80,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+I have completed various projects during my studies that allowed me to apply my skills in practical settings. These projects involved developing web applications using frameworks like Angular and React,
+ integrating with APIs,
+ and working on full-stack solutions with technologies such as ASP.NET Core. Through these projects, I gained hands-on experience in problem-solving, teamwork, and the practical application of software engineering principles.
+ These experiences have further enhanced my abilities as a full-stack developer.
         </motion.p>
       </div>
 

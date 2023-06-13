@@ -41,12 +41,14 @@ const Contact = () => {
           <span className="text-white font-medium mb-4" >My Name </span>
             <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>tomer shaw</button> 
           </label>
+          <br></br>
 
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">My email</span>
-            <a href= "shaw.tomer@gmail.com" className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' >shaw.tomer@gmail.com</a> 
-            
-          </label>
+          <span className="text-white font-medium mb-4">My email</span>
+         <a href="mailto:shaw.tomer@gmail.com" className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>
+          shaw.tomer@gmail.com
+         </a>
+           </label>
 
         </div>
 
