@@ -38,13 +38,13 @@ const Contact = () => {
 
         <div  >
           <label className="flex flex-col">
-          <span className="text-white font-medium mb-4">My Name</span>
+          <span className="text-white font-medium mb-4" >My Name </span>
             <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>tomer shaw</button> 
           </label>
 
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">My email</span>
-            <button className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>Shaw.tomer@gmail.com</button> 
+            <a href= "shaw.tomer@gmail.com" className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' >shaw.tomer@gmail.com</a> 
             
           </label>
 
