@@ -28,7 +28,8 @@ import {
     Csharp,
     Angular1,
     Portfolio,
-    AngularIcon
+    AngularIcon,
+    FullStack
   } from "../assets";
   
   export const navLinks = [
@@ -122,13 +123,12 @@ import {
   
   const experiences = [
     {
-      title: "#C Developer",
+      title: "Full stack Developer",
       company_name: "#C",
-      icon: Csharp,
+      icon: FullStack,
       iconBg: "#383E56",
       points: [
-        "During my studies I acquired a solid understanding of #C programming in a practical and focused way.",
-         "I have acquired the necessary knowledge and skills to effectively use C# for software development.",
+        "I have acquired practical skills in both front-end and back-end development through the course. On the front-end side, I have gained knowledge and experience in essential web technologies such as HTML, CSS, and JavaScript. Additionally, I have expertise in popular frameworks like Angular and React, which have equipped me to create visually appealing and user-friendly interfaces. In terms of back-end development, I possess proficiency in languages such as C# and have hands-on experience with frameworks like ASP.NET Core. This expertise enables me to build server-side applications that are scalable and efficient. Furthermore, I have extensive experience working with databases, particularly SQL Server, and utilizing version control systems like Git. These skills contribute to my ability to handle end-to-end development tasks and deliver robust software solutions.",
       ],
     },
     {
@@ -136,10 +136,14 @@ import {
       company_name: "reactpro",
       icon: reactpro,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
       points: [
-        "During my studies I acquired basic knowledge and understanding of React, a JavaScript library for building user interfaces.",
-        "I gained familiarity with the core concepts and components of React and developed a basic skill set for creating interactive web applications..",
+        "React Redux",
+        "Conditionals and Lists: Working with conditional rendering and dynamically rendering lists of elements.",
+        "Components Properties, State & Lifecycle: Managing component properties, state, and lifecycle methods for dynamic and interactive behavior.",
+        "Routing: Implementing routing in React applications to enable navigation between different pages or components.",
+        "Forms: Building and handling forms in React, including input validation and form submission.",
+        "Reaching out to the Web (HTTP/Fetch): Interacting with external APIs and fetching data from the web using HTTP requests.",
+        "I learned Three.js, a powerful JavaScript library for creating 3D graphics and animations on the web."
       ],
     },
     {
@@ -147,19 +151,25 @@ import {
       company_name: "Angular",
       icon: Angular1,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
       points: [
-        "During my studies, I acquired knowledge and a foundational understanding of Angular, a popular TypeScript-based framework for building web applications. I gained familiarity with the key concepts and features of Angular and developed a basic skill set to develop robust and scalable web applications using this framework.",
+        " Typescript",
+        "Angular Architecture",
+        " Components And Modules and how to build them well",
+        "Data Binding",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: ".net core",
+      company_name: "",
+      icon: Csharp,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
       points: [
-        "As a full-stack developer, I have acquired comprehensive knowledge and practical skills in both front-end and back-end development. On the front-end side, I have expertise in HTML, CSS, JavaScript, and frameworks like Angular and React, enabling me to create intuitive and visually appealing user interfaces. On the back-end side, I have proficiency in languages such as C# and frameworks like ASP.NET Core, allowing me to build scalable and efficient server-side applications. Additionally, I have experience working with databases like SQL Server and using version control systems like Git. With this skill set, I am capable of handling end-to-end development tasks and creating robust software solutions..",
+        "#C",
+        "object oriented diesigen",
+        "asp.net core",
+        "web api",
+        "wpf",
+        "entity framework"
       ],
     },
   ];
@@ -169,7 +179,7 @@ import {
     {
       name: "ShortenUrl",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "url shortner similar to tiny url",
       tags: [
         {
           name: "C",
@@ -190,10 +200,10 @@ import {
     {
       name: "FlightNavigatorApi",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "airport run way management system with test simulator ",
       tags: [
         {
-          name: "C",
+          name: "#C",
           color: "blue-text-gradient",
         },
         {

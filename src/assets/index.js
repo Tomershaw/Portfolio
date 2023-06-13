@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import Csharp from "./company/Csharp.png"
 import Angular1 from "./company/Angular1.png"
 import Portfolio from "./Portfolio.png"
+import FullStack from "./company/FullStack.png"
 
 export {
   logo,
@@ -71,5 +72,6 @@ export {
   Portfolio,
   C,
   AngularIcon,
-  Sql
+  Sql,
+  FullStack
 };
