@@ -124,7 +124,7 @@ import {
   const experiences = [
     {
       title: "Full stack Developer",
-      company_name: "#C",
+      company_name: "C#",
       icon: FullStack,
       iconBg: "#383E56",
       points: [
@@ -133,7 +133,7 @@ import {
     },
     {
       title: "React Native Developer",
-      company_name: "reactpro",
+      company_name: "react",
       icon: reactpro,
       iconBg: "#E6DEDD",
       points: [
