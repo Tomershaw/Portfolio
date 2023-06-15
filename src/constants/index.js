@@ -164,7 +164,7 @@ import {
       icon: Csharp,
       iconBg: "#E6DEDD",
       points: [
-        "#C",
+        "C#",
         "object oriented diesigen",
         "asp.net core",
         "web api",
