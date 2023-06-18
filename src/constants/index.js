@@ -165,7 +165,7 @@ import {
       iconBg: "#E6DEDD",
       points: [
         "C#",
-        "object oriented diesigen",
+        "object oriented design",
         "asp.net core",
         "web api",
         "wpf",
