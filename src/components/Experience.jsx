@@ -59,7 +59,7 @@ const Experience = () => {
     <>
     <motion.div variants={textVariant()}>
     <p className={styles.sectionSubText}>what i have done so far</p>
-      <h2 className={styles.sectionHeadText}>experience</h2>
+      <h2 className={styles.sectionHeadText}>Experience</h2>
     </motion.div>
     <div className='mt-20 flex flex-col'>
     <VerticalTimeline>
@@ -76,4 +76,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "Experience");
