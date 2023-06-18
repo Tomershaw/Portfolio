@@ -24,9 +24,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full '
+        className='bg-tertiary p-6 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative  w-full h-[250px]'>
           <img
             src={image}
             alt='project_image'
@@ -47,7 +47,7 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-5 '>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
@@ -58,7 +58,7 @@ const ProjectCard = ({
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
-              #{tag.name}
+              {tag.name}
             </p>
           ))}
         </div>

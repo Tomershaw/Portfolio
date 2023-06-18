@@ -182,7 +182,7 @@ import {
         "url shortner similar to tiny url",
       tags: [
         {
-          name: "C",
+          name: "C#",
           color: "blue-text-gradient",
         },
         {
@@ -201,9 +201,10 @@ import {
       name: "FlightNavigatorApi",
       description:
         "airport run way management system with test simulator ",
+        
       tags: [
         {
-          name: "#C",
+          name: "C#",
           color: "blue-text-gradient",
         },
         {
@@ -221,7 +222,7 @@ import {
     {
       name: "Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Resume in react that uses three/fiber",
       tags: [
         {
           name: "React",
@@ -232,7 +233,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "js",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
