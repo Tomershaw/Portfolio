@@ -200,7 +200,7 @@ import {
     {
       name: "FlightNavigatorApi",
       description:
-        "airport run way management system with test simulator ",
+        "airport run way management system  ",
         
       tags: [
         {

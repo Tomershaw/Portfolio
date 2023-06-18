@@ -21,8 +21,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.6 : 2.5}  
-        position={isMobile ? [0, -3, -2.2] : [0, -7.25, -0.5]}
+        scale={isMobile ? null : 2.5}  
+        position={isMobile ? [0, -3,-2.2] : [0, -7.25, -0.5]}
         rotation={[-0.01, -0.2, -0.1]}  
       />
     </mesh>
@@ -32,25 +32,23 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-
-    // Set the initial value of the `isMobile` state variable
-    setIsMobile(mediaQuery.matches);
-
-    // Define a callback function to handle changes to the media query
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 500);
     };
 
-    // Add the callback function as a listener for changes to the media query
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    // handleResize();
 
-    // Remove the listener when the component is unmounted
+    window.addEventListener("resize", handleResize);
+
     return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  if (isMobile) {
+    return null; // Return null to not render anything in mobile dimensions
+  }
+
 
   return (
     <Canvas
@@ -60,13 +58,13 @@ const ComputersCanvas = () => {
       camera={{ position: [190, 3, 5], fov: 5 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Computers isMobile={isMobile}/>
       </Suspense>
 
       <Preload all />
